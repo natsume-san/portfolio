@@ -1,0 +1,264 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>natsume__san | Gallery</title>
+        <link rel="icon" type="image/x-icon" href="images/ss_sub_logo.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="gallery-styles.css">
+
+    </head>
+    <body>
+        
+        <div class="name">
+            <h2>Gallery</h2>
+        </div>
+
+<div class="work-container">
+  <img src="thumb/1.jpg" 
+  alt="asuka" id="modal1-btn" style="cursor: pointer" data-modal="modal1" class="modal-open" onclick="modal1()">
+  
+  <img src="thumb/2.jpg" 
+  alt="columbina" id="modal2-btn" style="cursor: pointer" data-modal="modal2" class="modal-open" onclick="modal2()">
+  
+  <img src="thumb/3.jpg" 
+  alt="izusocmaybee5" id="modal3-btn" style="cursor: pointer" data-modal="modal3" class="modal-open" onclick="modal3()">
+  
+  <br>
+
+  <img src="thumb/4.jpg" 
+  alt="lapluma" id="modal4-btn" style="cursor: pointer" data-modal="modal4" class="modal-open" onclick="modal4()">
+  
+  <img src="thumb/5.jpg" 
+  alt="mistythingfotostudy5.2" id="modal5-btn" style="cursor: pointer" data-modal="modal5" class="modal-open" onclick="modal5()">
+  
+  <img src="thumb/6.jpg"  
+  alt="popsojudtiysmaybeesz9.1" id="modal6-btn" style="cursor: pointer" data-modal="modal6" class="modal-open" onclick="modal6()">
+  
+  <br>
+
+  <img src="thumb/7.jpg" 
+  alt="raidenyeye5" id="modal7-btn" style="cursor: pointer" data-modal="modal7" class="modal-open" onclick="modal7()">
+  
+  <img src="thumb/8.jpg" 
+  alt="rei" id="modal8-btn" style="cursor: pointer" data-modal="modal8" class="modal-open" onclick="modal8()">
+  
+  <img src="thumb/9.jpg" 
+  alt="juno" id="modal9-btn" style="cursor: pointer" data-modal="modal9" class="modal-open" onclick="modal9()">
+  
+  <br>
+</div>
+
+    
+    <!-- The Modal -->
+      <div id="modal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/asuka.jpg" alt="asuka" class="modal-img">
+        </div>
+      </div>
+
+      <div id="modal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/columbina.jpg" alt="columbina" class="modal-img">
+        </div>
+      </div>
+
+      <div id="modal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/izusocmaybee5.jpg" alt="izusocmaybee5" class="modal-img">
+        </div>
+      </div>
+
+         <!-- The Modal -->
+         <div id="modal4" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close"></span>    
+                <img src="images/lapluma.jpg" alt="lapluma" class="modal-img">
+            </div>
+          </div>
+    
+          <div id="modal5" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close"></span>    
+                <img src="images/mistythingfotostudy5.2.jpg" alt="mistythingfotostudy5" class="modal-img">
+            </div>
+          </div>
+    
+          <div id="modal6" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close"></span>    
+                <img src="images/popsojudtiysmaybeesz9.1.jpg" alt="popsojudtiysmaybeesz9" class="modal-img">
+            </div>
+          </div>
+
+             <!-- The Modal -->
+      <div id="modal7" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/raidenyeye5.4.jpg" alt="raidenyeye5" class="modal-img">
+        </div>
+      </div>
+
+      <div id="modal8" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/rei.jpg" alt="rei" class="modal-img">
+        </div>
+      </div>
+
+      <div id="modal9" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>    
+            <img src="images/juno.jpg" alt="juno" class="modal-img">
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="index.html">
+            <div class="button">
+                Back to Landing
+            </div>
+        </a>
+    </div>
+
+      <div class="container-fart">
+        <a href="https://youtu.be/dQw4w9WgXcQ">
+            <div class="button-fart">
+                Made with Fart
+            </div>
+        </a>
+    </div>
+
+<script>
+  // modal 1
+  function modal1(){
+    var modal = document.getElementById("modal1");
+    var btn = document.getElementById("modal1-btn");
+    modal.style.display = "block";
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+  // modal 2
+  function modal2(){
+    var modal = document.getElementById("modal2");
+    var btn = document.getElementById("modal2-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+    // modal 3
+    function modal3(){
+    var modal = document.getElementById("modal3");
+    var btn = document.getElementById("modal3-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+
+    // modal 4
+    function modal4(){
+    var modal = document.getElementById("modal4");
+    var btn = document.getElementById("modal4-btn");
+    modal.style.display = "block";
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+  // modal 5
+  function modal5(){
+    var modal = document.getElementById("modal5");
+    var btn = document.getElementById("modal5-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+    // modal 6
+    function modal6(){
+    var modal = document.getElementById("modal6");
+    var btn = document.getElementById("modal6-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+    // modal 7
+    function modal7(){
+    var modal = document.getElementById("modal7");
+    var btn = document.getElementById("modal7-btn");
+    modal.style.display = "block";
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+  // modal 8
+  function modal8(){
+    var modal = document.getElementById("modal8");
+    var btn = document.getElementById("modal8-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+    // modal 9
+    function modal9(){
+    var modal = document.getElementById("modal9");
+    var btn = document.getElementById("modal9-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+</script>
+
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

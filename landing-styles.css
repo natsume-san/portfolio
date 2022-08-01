@@ -1,0 +1,268 @@
+body {
+	/* background-color: #E1D4CD;
+    user-select: none; */
+    background: hsla(21, 25%, 84%, 1);
+
+    background: linear-gradient(180deg, hsla(21, 25%, 84%, 1) 36%, hsla(196, 7%, 57%, 1) 100%);
+    
+    background: -moz-linear-gradient(180deg, hsla(21, 25%, 84%, 1) 36%, hsla(196, 7%, 57%, 1) 100%);
+    
+    background: -webkit-linear-gradient(180deg, hsla(21, 25%, 84%, 1) 36%, hsla(196, 7%, 57%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E1D4CD", endColorstr="#8B969A", GradientType=1 );
+}
+    
+
+
+
+
+    
+.name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #593724;
+
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 500ms;
+
+
+}
+
+.img_container{
+    padding-top: 90;
+    padding-bottom: 20;
+    text-align: center;
+}
+
+.logo{
+    height: auto;
+    width: 300px;
+    transition:0.5s;
+
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+/* tablet IPAD */
+@media screen and (max-width: 1024px){
+
+    .img_container{
+        padding-top: 80;
+        padding-bottom: 15;
+        text-align: center;
+    }
+    .logo{
+        height: auto;
+        width: 255px;
+        transition:0.5s;
+    }
+}
+/* phone */
+@media screen and (max-width:767px){
+
+    .img_container{
+        padding-top: 70;
+        padding-bottom: 10;
+        text-align: center;
+    }
+    .logo{
+        height: auto;
+        width: 200px;
+        transition:0.5s;
+    }
+}
+
+.container{
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    padding: 10 10 10 10;
+    margin: auto;
+    transition:0.5s;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        text-align: center;
+        width: 175px;
+        height: 60px;
+        padding: 10 10 10 10;
+        margin: auto;
+        transition:0.5s;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        text-align: center;
+        width: 150px;
+        height: 60px;
+        padding: 10 10 10 10;
+        margin: auto;
+        transition:0.5s;
+    }
+}
+
+.button{
+    width: inherit;
+    height: inherit;
+    background-color: #8B969A;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    border-radius: 40px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color:#688190;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+a:link, a:visited,  a:hover, a:active{
+    color: #f0e8dd;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+#btn0{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 250ms;
+}
+#btn1{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 300ms;
+}
+
+#btn2{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 350ms;
+}
+
+#btn3{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 400ms;
+}
+
+.button-fart{
+  
+    width: inherit;
+    height: inherit;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    border-radius: 40px;
+    margin: auto;
+    transition: 0.5s;
+
+
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 450ms;
+}
+
+.button-fart:hover{
+    background-color:#688190;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+
+.container-fart{
+    padding-top: 100;
+    text-align: center;
+    width: 120px;
+    height: 10px;
+    margin: auto;
+    transition:0.5s;
+}
+
+@media screen and (max-width: 1024px){
+    .container-fart{
+  
+        text-align: center;
+        width: 120px;
+        height: 10px;
+        padding: 10 10 10 10;
+        margin: auto;
+        transition:0.5s;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container-fart{
+
+        text-align: center;
+        width: 120px;
+        height: 10px;
+        padding: 10 10 10 10;
+        margin: auto;
+        transition:0.5s;
+    }
+}
